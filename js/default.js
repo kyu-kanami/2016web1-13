@@ -38,9 +38,9 @@ function getCookie(c_name){
 
 var last_date = getCookie('lastDate');
 if(last_date){
-    document.getElementById('cookie').textContent = 'あなたが十回・・ひゃ、百回目の記念すべき訪問者ですよ！：' + last_date;
+    document.getElementById('cookie').textContent = '貴様どこかで見覚えが・・・  ：' + last_date;
 }else{
-    document.getElementById('cookie').textContent = 'あなたが十回目の記念すべき訪問者です！';
+    document.getElementById('cookie').textContent = 'ようこそ';
 }
 
 var current_time = new Date();
