@@ -10,7 +10,7 @@ body{
 }
 
 ul{
-  list-style: none;/* ・を消す */
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -21,7 +21,6 @@ li{
 }
 
 .image:after{
-  /* clear-fix */
   content: ""; 
   display: block; 
   clear: both;
